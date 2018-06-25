@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "CRConfirmOrder"
-  s.version      = "2"
+  s.version      = "3"
   s.summary      = "A short description of CRConfirmOrder."
 
   s.description  = <<-DESC
