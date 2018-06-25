@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "CRConfirmOrder"
-  s.version      = "4"
+  s.version      = "5"
   s.summary      = "A short description of CRConfirmOrder."
 
   s.description  = <<-DESC
@@ -29,15 +29,15 @@ Pod::Spec.new do |s|
     ss.source_files = 'CRConfirmOrder/CRConfirmOrder/Protocol/*.{h,m}'
     ss.framework = "UIKit"
   end
-
+  s.subspec 'Source' do |ss|
+    ss.source_files = 'CRConfirmOrder/CRConfirmOrder/Source/*.{h,m}'
+    ss.framework  = "UIKit"
+  end
   s.subspec 'ServiceProvider' do |ss|
     ss.source_files = 'CRConfirmOrder/CRConfirmOrder/ServiceProvider/*.{h,m}'
     ss.dependency "CRConfirmOrder/Protocol"
     ss.dependency "CRProtocolManager"
-  end
-  s.subspec 'Source' do |ss|
-    ss.source_files = 'CRConfirmOrder/CRConfirmOrder/Source/*.{h,m}'
-    ss.framework  = "UIKit"
+    ss.dependency "CRConfirmOrder/Source"
   end
 
 end
