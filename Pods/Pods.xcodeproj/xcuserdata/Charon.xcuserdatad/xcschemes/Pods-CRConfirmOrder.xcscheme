@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "39FBBB9CE36B4A3828329B65"
+               BlueprintIdentifier = "A6DB21C5DA10AD91B12679D3"
                BuildableName = "libPods-CRConfirmOrder.a"
                BlueprintName = "Pods-CRConfirmOrder"
                ReferencedContainer = "container:Pods.xcodeproj">
