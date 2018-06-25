@@ -4,7 +4,6 @@ source 'https://github.com/sun6boys/CRRepositories.git'
 source 'https://github.com/CocoaPods/Specs.git'
 target 'CRConfirmOrder' do
 
-pod "CRConfirmOrderServiceProtocol"
 pod "CRProtocolManager"
 
 end

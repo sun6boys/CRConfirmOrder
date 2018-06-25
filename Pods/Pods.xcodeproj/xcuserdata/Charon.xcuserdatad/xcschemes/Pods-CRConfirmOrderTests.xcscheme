@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B4110ED21358443C7C4BC974FA1BF5F1'
-               BlueprintName = 'CRProtocolManager'
+               BlueprintIdentifier = '4C536B00C56E197403D7EBF108A44C5B'
+               BlueprintName = 'Pods-CRConfirmOrderTests'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libCRProtocolManager.a'>
+               BuildableName = 'libPods-CRConfirmOrderTests.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

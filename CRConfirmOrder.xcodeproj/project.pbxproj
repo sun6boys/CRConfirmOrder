@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37C9671023EFB5D396FD4547 /* libPods-CRConfirmOrderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6976E9738C1511DF2BE36F39 /* libPods-CRConfirmOrderTests.a */; };
+		7E36642665A230442F7CA99C /* libPods-CRConfirmOrder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8B546180E112F8695103BF /* libPods-CRConfirmOrder.a */; };
 		90C39F491E06E5E300800668 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C39F481E06E5E300800668 /* main.m */; };
 		90C39F4C1E06E5E300800668 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C39F4B1E06E5E300800668 /* AppDelegate.m */; };
 		90C39F4F1E06E5E300800668 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C39F4E1E06E5E300800668 /* ViewController.m */; };
@@ -17,7 +19,7 @@
 		90C39F6D1E06E5E400800668 /* CRConfirmOrderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C39F6C1E06E5E400800668 /* CRConfirmOrderUITests.m */; };
 		90D8D9AA20E128D5005AC32F /* CRConfirmOrderServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D8D9A320E128D5005AC32F /* CRConfirmOrderServiceProvide.m */; };
 		90D8D9AB20E128D5005AC32F /* CRConfirmOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D8D9A620E128D5005AC32F /* CRConfirmOrderViewController.m */; };
-		9B680DF81E565930AAFA3462 /* libPods-CRConfirmOrder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E25C1C405EDED9268DBAF4B /* libPods-CRConfirmOrder.a */; };
+		A4F1D1724CB3C406B8C47921 /* libPods-CRConfirmOrderUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4409304D7577EAAC7E4F888 /* libPods-CRConfirmOrderUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		030C1A63617D3650D6D8CB7E /* Pods-CRConfirmOrder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRConfirmOrder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CRConfirmOrder/Pods-CRConfirmOrder.debug.xcconfig"; sourceTree = "<group>"; };
-		0E25C1C405EDED9268DBAF4B /* libPods-CRConfirmOrder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRConfirmOrder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		451323962D12E303492850BF /* Pods-CRConfirmOrder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRConfirmOrder.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRConfirmOrder/Pods-CRConfirmOrder.release.xcconfig"; sourceTree = "<group>"; };
+		16359C48E3DE96983B6B3421 /* Pods-CRConfirmOrder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRConfirmOrder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CRConfirmOrder/Pods-CRConfirmOrder.debug.xcconfig"; sourceTree = "<group>"; };
+		1EC81CAB2B5E0FC186B06DBF /* Pods-CRConfirmOrderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRConfirmOrderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CRConfirmOrderUITests/Pods-CRConfirmOrderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6976E9738C1511DF2BE36F39 /* libPods-CRConfirmOrderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRConfirmOrderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8504DC99BE2D517D17352CCB /* Pods-CRConfirmOrderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRConfirmOrderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CRConfirmOrderTests/Pods-CRConfirmOrderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		90C39F441E06E5E300800668 /* CRConfirmOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRConfirmOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C39F481E06E5E300800668 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90C39F4A1E06E5E300800668 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,11 @@
 		90D8D9A620E128D5005AC32F /* CRConfirmOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRConfirmOrderViewController.m; sourceTree = "<group>"; };
 		90D8D9A720E128D5005AC32F /* CRConfirmOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRConfirmOrderViewController.h; sourceTree = "<group>"; };
 		90D8D9A920E128D5005AC32F /* CRConfirmOrderServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRConfirmOrderServiceProtocol.h; sourceTree = "<group>"; };
+		9FB928FE10EFF74C62D9F568 /* Pods-CRConfirmOrderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRConfirmOrderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRConfirmOrderTests/Pods-CRConfirmOrderTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4409304D7577EAAC7E4F888 /* libPods-CRConfirmOrderUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRConfirmOrderUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A5AA13D9237F483677947D /* Pods-CRConfirmOrderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRConfirmOrderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRConfirmOrderUITests/Pods-CRConfirmOrderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC8B546180E112F8695103BF /* libPods-CRConfirmOrder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRConfirmOrder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3AB94FE49D62E8201402E5 /* Pods-CRConfirmOrder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRConfirmOrder.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRConfirmOrder/Pods-CRConfirmOrder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B680DF81E565930AAFA3462 /* libPods-CRConfirmOrder.a in Frameworks */,
+				7E36642665A230442F7CA99C /* libPods-CRConfirmOrder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C9671023EFB5D396FD4547 /* libPods-CRConfirmOrderTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +93,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4F1D1724CB3C406B8C47921 /* libPods-CRConfirmOrderUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CD1384307319136867852EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC8B546180E112F8695103BF /* libPods-CRConfirmOrder.a */,
+				6976E9738C1511DF2BE36F39 /* libPods-CRConfirmOrderTests.a */,
+				E4409304D7577EAAC7E4F888 /* libPods-CRConfirmOrderUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D62BD2C6293179EB5E8A617 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16359C48E3DE96983B6B3421 /* Pods-CRConfirmOrder.debug.xcconfig */,
+				FF3AB94FE49D62E8201402E5 /* Pods-CRConfirmOrder.release.xcconfig */,
+				8504DC99BE2D517D17352CCB /* Pods-CRConfirmOrderTests.debug.xcconfig */,
+				9FB928FE10EFF74C62D9F568 /* Pods-CRConfirmOrderTests.release.xcconfig */,
+				1EC81CAB2B5E0FC186B06DBF /* Pods-CRConfirmOrderUITests.debug.xcconfig */,
+				F8A5AA13D9237F483677947D /* Pods-CRConfirmOrderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		90C39F3B1E06E5E300800668 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +130,8 @@
 				90C39F601E06E5E400800668 /* CRConfirmOrderTests */,
 				90C39F6B1E06E5E400800668 /* CRConfirmOrderUITests */,
 				90C39F451E06E5E300800668 /* Products */,
-				F3ECA54CDC8945E8A3FC12D1 /* Pods */,
-				E062B45BFB38ABD9C292EDE7 /* Frameworks */,
+				7D62BD2C6293179EB5E8A617 /* Pods */,
+				0CD1384307319136867852EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,23 +224,6 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
-		E062B45BFB38ABD9C292EDE7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0E25C1C405EDED9268DBAF4B /* libPods-CRConfirmOrder.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F3ECA54CDC8945E8A3FC12D1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				030C1A63617D3650D6D8CB7E /* Pods-CRConfirmOrder.debug.xcconfig */,
-				451323962D12E303492850BF /* Pods-CRConfirmOrder.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -215,11 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90C39F711E06E5E400800668 /* Build configuration list for PBXNativeTarget "CRConfirmOrder" */;
 			buildPhases = (
-				7004EBB55A59133546CC4A68 /* Check Pods Manifest.lock */,
+				FE0857B5BFF7BB45102E020D /* [CP] Check Pods Manifest.lock */,
 				90C39F401E06E5E300800668 /* Sources */,
 				90C39F411E06E5E300800668 /* Frameworks */,
 				90C39F421E06E5E300800668 /* Resources */,
-				777573A9933D04FB6922AEDD /* Copy Pods Resources */,
+				76C89A842E428916F45D8020 /* [CP] Embed Pods Frameworks */,
+				50AFC2CD28BFAC59AF48B5D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90C39F741E06E5E400800668 /* Build configuration list for PBXNativeTarget "CRConfirmOrderTests" */;
 			buildPhases = (
+				567417FEBEA0E42BCA4388CB /* [CP] Check Pods Manifest.lock */,
 				90C39F591E06E5E400800668 /* Sources */,
 				90C39F5A1E06E5E400800668 /* Frameworks */,
 				90C39F5B1E06E5E400800668 /* Resources */,
+				961FAD94870F5FF78DCF008E /* [CP] Embed Pods Frameworks */,
+				39EEA3E9FD9CE2453AC04C24 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,9 +272,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90C39F771E06E5E400800668 /* Build configuration list for PBXNativeTarget "CRConfirmOrderUITests" */;
 			buildPhases = (
+				751EF2F5653CA84D98609E34 /* [CP] Check Pods Manifest.lock */,
 				90C39F641E06E5E400800668 /* Sources */,
 				90C39F651E06E5E400800668 /* Frameworks */,
 				90C39F661E06E5E400800668 /* Resources */,
+				6D4F806F37EBA8D29744648B /* [CP] Embed Pods Frameworks */,
+				CCFCB9C86F1EDF30DEFD3976 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,34 +362,148 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7004EBB55A59133546CC4A68 /* Check Pods Manifest.lock */ = {
+		39EEA3E9FD9CE2453AC04C24 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRConfirmOrderTests/Pods-CRConfirmOrderTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		777573A9933D04FB6922AEDD /* Copy Pods Resources */ = {
+		50AFC2CD28BFAC59AF48B5D4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRConfirmOrder/Pods-CRConfirmOrder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		567417FEBEA0E42BCA4388CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CRConfirmOrderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D4F806F37EBA8D29744648B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRConfirmOrderUITests/Pods-CRConfirmOrderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		751EF2F5653CA84D98609E34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CRConfirmOrderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76C89A842E428916F45D8020 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRConfirmOrder/Pods-CRConfirmOrder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		961FAD94870F5FF78DCF008E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRConfirmOrderTests/Pods-CRConfirmOrderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCFCB9C86F1EDF30DEFD3976 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRConfirmOrderUITests/Pods-CRConfirmOrderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE0857B5BFF7BB45102E020D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CRConfirmOrder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -525,7 +662,7 @@
 		};
 		90C39F721E06E5E400800668 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 030C1A63617D3650D6D8CB7E /* Pods-CRConfirmOrder.debug.xcconfig */;
+			baseConfigurationReference = 16359C48E3DE96983B6B3421 /* Pods-CRConfirmOrder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CRConfirmOrder/Info.plist;
@@ -537,7 +674,7 @@
 		};
 		90C39F731E06E5E400800668 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 451323962D12E303492850BF /* Pods-CRConfirmOrder.release.xcconfig */;
+			baseConfigurationReference = FF3AB94FE49D62E8201402E5 /* Pods-CRConfirmOrder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CRConfirmOrder/Info.plist;
@@ -549,6 +686,7 @@
 		};
 		90C39F751E06E5E400800668 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8504DC99BE2D517D17352CCB /* Pods-CRConfirmOrderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CRConfirmOrderTests/Info.plist;
@@ -561,6 +699,7 @@
 		};
 		90C39F761E06E5E400800668 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FB928FE10EFF74C62D9F568 /* Pods-CRConfirmOrderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CRConfirmOrderTests/Info.plist;
@@ -573,6 +712,7 @@
 		};
 		90C39F781E06E5E400800668 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EC81CAB2B5E0FC186B06DBF /* Pods-CRConfirmOrderUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CRConfirmOrderUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -584,6 +724,7 @@
 		};
 		90C39F791E06E5E400800668 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A5AA13D9237F483677947D /* Pods-CRConfirmOrderUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CRConfirmOrderUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
