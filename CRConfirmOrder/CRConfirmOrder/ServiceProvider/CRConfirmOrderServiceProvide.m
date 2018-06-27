@@ -24,7 +24,7 @@
 {
     [CRProtocolManager registServiceProvide:[self new] forProtocol:@protocol(CRConfirmOrderServiceProtocol)];
 }
-vim .
+
 #pragma mark - CRConfirmOrderServiceProtocol
 - (UIViewController *)confirmOrderViewControllerWithGoodsId:(NSString *)goodsId sureComplete:(dispatch_block_t)sureComplete
 {
