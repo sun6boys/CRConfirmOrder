@@ -20,6 +20,7 @@
 		90D8D9AA20E128D5005AC32F /* CRConfirmOrderServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D8D9A320E128D5005AC32F /* CRConfirmOrderServiceProvide.m */; };
 		90D8D9AB20E128D5005AC32F /* CRConfirmOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D8D9A620E128D5005AC32F /* CRConfirmOrderViewController.m */; };
 		A4F1D1724CB3C406B8C47921 /* libPods-CRConfirmOrderUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4409304D7577EAAC7E4F888 /* libPods-CRConfirmOrderUITests.a */; };
+		D591F71C20E37CDD00C284EF /* CROrderInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D591F71B20E37CDD00C284EF /* CROrderInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		90D8D9A720E128D5005AC32F /* CRConfirmOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRConfirmOrderViewController.h; sourceTree = "<group>"; };
 		90D8D9A920E128D5005AC32F /* CRConfirmOrderServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRConfirmOrderServiceProtocol.h; sourceTree = "<group>"; };
 		9FB928FE10EFF74C62D9F568 /* Pods-CRConfirmOrderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRConfirmOrderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRConfirmOrderTests/Pods-CRConfirmOrderTests.release.xcconfig"; sourceTree = "<group>"; };
+		D591F71A20E37CDD00C284EF /* CROrderInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CROrderInfo.h; sourceTree = "<group>"; };
+		D591F71B20E37CDD00C284EF /* CROrderInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CROrderInfo.m; sourceTree = "<group>"; };
 		E4409304D7577EAAC7E4F888 /* libPods-CRConfirmOrderUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRConfirmOrderUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A5AA13D9237F483677947D /* Pods-CRConfirmOrderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRConfirmOrderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRConfirmOrderUITests/Pods-CRConfirmOrderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FC8B546180E112F8695103BF /* libPods-CRConfirmOrder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRConfirmOrder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,8 +204,8 @@
 		90D8D9A220E128D5005AC32F /* ServiceProvider */ = {
 			isa = PBXGroup;
 			children = (
-				90D8D9A320E128D5005AC32F /* CRConfirmOrderServiceProvide.m */,
 				90D8D9A420E128D5005AC32F /* CRConfirmOrderServiceProvide.h */,
+				90D8D9A320E128D5005AC32F /* CRConfirmOrderServiceProvide.m */,
 			);
 			path = ServiceProvider;
 			sourceTree = "<group>";
@@ -210,8 +213,8 @@
 		90D8D9A520E128D5005AC32F /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				90D8D9A620E128D5005AC32F /* CRConfirmOrderViewController.m */,
 				90D8D9A720E128D5005AC32F /* CRConfirmOrderViewController.h */,
+				90D8D9A620E128D5005AC32F /* CRConfirmOrderViewController.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -220,6 +223,8 @@
 			isa = PBXGroup;
 			children = (
 				90D8D9A920E128D5005AC32F /* CRConfirmOrderServiceProtocol.h */,
+				D591F71A20E37CDD00C284EF /* CROrderInfo.h */,
+				D591F71B20E37CDD00C284EF /* CROrderInfo.m */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -516,6 +521,7 @@
 				90C39F4F1E06E5E300800668 /* ViewController.m in Sources */,
 				90C39F4C1E06E5E300800668 /* AppDelegate.m in Sources */,
 				90D8D9AB20E128D5005AC32F /* CRConfirmOrderViewController.m in Sources */,
+				D591F71C20E37CDD00C284EF /* CROrderInfo.m in Sources */,
 				90D8D9AA20E128D5005AC32F /* CRConfirmOrderServiceProvide.m in Sources */,
 				90C39F491E06E5E300800668 /* main.m in Sources */,
 			);
